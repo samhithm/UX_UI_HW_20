@@ -1,0 +1,148 @@
+<!--
+1. CHECK a navigation menu
+2. a section about the product for the case study
+3. the research to uncover problem statement
+4. the problem statement
+5. how you iterated
+6. prototype that solved your problem
+-->
+
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+
+	<title>UX/UI Homework 20</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<!-- THIS IS PART A USING A NAV COMPONENT -->
+				<ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="pills-info-tab" data-toggle="pill" href="#pills-info" role="tab" aria-controls="pills-info" aria-selected="true">Product Info</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-research-tab" data-toggle="pill" href="#pills-research" role="tab" aria-controls="pills-research" aria-selected="false">Product Research</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-statement-tab" data-toggle="pill" href="#pills-statement" role="tab" aria-controls="pills-statement" aria-selected="false">Problem Statement</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-prototype-tab" data-toggle="pill" href="#pills-prototype" role="tab" aria-controls="pills-prototype" aria-selected="false">Process and Prototype</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab"> 
+						<!-- THIS IS PART B USING A JUMBOTRON COMPONENT -->
+						<div class="jumbotron" align="center">
+							<h1 class="display-4"> <b>Qurbat</b> </h1>
+							<p class="lead"> <b>Mobile Prototype</b><br><br>
+                                People get lost and don’t know what to do in the airport after getting out of security lines.
+                                </p>
+							<hr class="my-4">
+                            <p> <b> Goal </b><br>
+                                <br>
+                                The goal is to offer a solution to make finding activities easier after waiting in line for security
+                                <br><br>
+                                <b>My role and responsibilities</b>
+                                <br><br>
+                                1. Ideation<br>
+                                2. Implementation<br>
+                                3. Prototyping<br>
+                                <br>
+                                <b>Timeline</b>
+                                <br><br>
+                                4 weeks  </p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-research" role="tabpanel" aria-labelledby="pills-research-tab">
+						<!-- THIS IS PART C USING A COLLAPSE COMPONENT -->
+						<div class="accordion" id="researchAccordion">
+							<div class="card">
+								<div class="card-header" id="cardOne">
+									<h2 class="mb-0">
+										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											Research
+										</button>
+									</h2>
+								</div>
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#researchAccordion">
+									<div class="card-body" align="center">
+                                        In this research project, I planned and conducted 20 interviews with stakeholders, current users and potential users in San Jose. <br>
+                                        <img src="images/Research_1-3.png">
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<h2 class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											Proto-Persona
+										</button>
+									</h2>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#researchAccordion">
+									<div class="card-body" align="center">
+                                        <img src="images/Research_4.png">
+                            		</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<h2 class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											Documentation
+										</button>
+									</h2>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#researchAccordion">
+									<div class="card-body" align="center">
+                                        This is included because it shows what the users like, what they wish to have, and what if certain features. It shows the potential the application could go to and what could be implemented.
+                                        <img src="images/Research_5.png">
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+					<div class="tab-pane fade" id="pills-statement" role="tabpanel" aria-labelledby="pills-statement-tab">
+						<!-- THIS IS PART D USING A JUMBOTRON COMPONENT --> 
+						<div class="jumbotron" align="center">
+							<h1 class="display-4"> Problem Statement </h1>
+                            <p class="lead"> It is overwhelming for people to stand in security lines for a long time. Not only is it frustrating, but people are genuinely not happy about their overall travel experience. </p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-prototype" role="tabpanel" aria-labelledby="pills-prototype-tab"> 
+						<!-- THIS IS PART E USING A LIST GROUP COMPONENT -->
+						<ul class="list-group" align="center">
+							<li class="list-group-item"> <img src="images/Welcome_Screen.png" width="500"> </li>
+							<li class="list-group-item"> <img src="images/What_Kind_Of_An_Explorer_Are_You_.png" width="500"> </li>
+							<li class="list-group-item"> <img src="images/The_Cartographer.png" width="500"> </li>
+							<li class="list-group-item"> <img src="images/Home.png" width="500"> </li>
+                            <li class="list-group-item"> I wrote a case study about this project to show the design process and share more about some of the challenges we overcame. </li>
+                            <li class="list-group-item"> <a class="btn btn-primary" href="https://docs.google.com/presentation/d/1DOyyz5lCl908_Hsa9M_Im9B1AhjYMK6DErAZnEpf6oE/edit?usp=sharing" role="button">Read The Case Study</a> </li>
+						</ul>
+					</div>           
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" 
+integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" 
+crossorigin="anonymous"></script>
+</html>
